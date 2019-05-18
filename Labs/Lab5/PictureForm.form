@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PictureForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="18" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="21" y="20" width="554" height="207"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7ea" class="javax.swing.JLabel" binding="a">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="a"/>
+        </properties>
+      </component>
+      <component id="fe79c" class="CanvasPanel" binding="canvasPanel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="18" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="1000" height="1000"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b585" class="javax.swing.JLabel" binding="b">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="b"/>
+        </properties>
+      </component>
+      <component id="3bb25" class="javax.swing.JSpinner" binding="aSpinner">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cf17e" class="javax.swing.JSpinner" binding="bSpinner">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e02e4" class="javax.swing.JLabel" binding="c">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="c"/>
+        </properties>
+      </component>
+      <component id="2f475" class="javax.swing.JLabel" binding="ga">
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="G"/>
+        </properties>
+      </component>
+      <component id="4c548" class="javax.swing.JLabel" binding="rb">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="R"/>
+        </properties>
+      </component>
+      <component id="2a5e1" class="javax.swing.JLabel" binding="gb">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="G"/>
+        </properties>
+      </component>
+      <component id="aaa5a" class="javax.swing.JLabel" binding="gc">
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="G"/>
+        </properties>
+      </component>
+      <component id="1a2f1" class="javax.swing.JLabel" binding="aColor">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Color"/>
+        </properties>
+      </component>
+      <component id="cd6fb" class="javax.swing.JLabel" binding="cColor">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Color"/>
+        </properties>
+      </component>
+      <component id="deb1b" class="javax.swing.JLabel" binding="bColor">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Color"/>
+        </properties>
+      </component>
+      <component id="2b1a9" class="javax.swing.JLabel" binding="rc">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="R"/>
+        </properties>
+      </component>
+      <component id="6c4ca" class="javax.swing.JLabel" binding="ra">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="R"/>
+        </properties>
+      </component>
+      <component id="e00fa" class="javax.swing.JSpinner" binding="sra">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6a3ed" class="javax.swing.JSpinner" binding="srb">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2d391" class="javax.swing.JSpinner" binding="src">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f5f61" class="javax.swing.JSpinner" binding="sga">
+        <constraints>
+          <grid row="0" column="10" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fadca" class="javax.swing.JSpinner" binding="sgb">
+        <constraints>
+          <grid row="1" column="10" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="acc7b" class="javax.swing.JSpinner" binding="sgc">
+        <constraints>
+          <grid row="2" column="10" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bc346" class="javax.swing.JLabel" binding="ba">
+        <constraints>
+          <grid row="0" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="B"/>
+        </properties>
+      </component>
+      <component id="8bcce" class="javax.swing.JLabel" binding="bb">
+        <constraints>
+          <grid row="1" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="B"/>
+        </properties>
+      </component>
+      <component id="3499b" class="javax.swing.JLabel" binding="bc">
+        <constraints>
+          <grid row="2" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="B"/>
+        </properties>
+      </component>
+      <component id="29bfa" class="javax.swing.JSpinner" binding="sba">
+        <constraints>
+          <grid row="0" column="14" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3b3aa" class="javax.swing.JSpinner" binding="sbb">
+        <constraints>
+          <grid row="1" column="14" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="71001" class="javax.swing.JSpinner" binding="sbc">
+        <constraints>
+          <grid row="2" column="14" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
